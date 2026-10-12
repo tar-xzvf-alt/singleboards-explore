@@ -159,7 +159,7 @@ label Linux
   append root=/dev/mmcblk0p2 rootwait console=ttyS0,115200
 ```
 Кратко расскажу про указанные параметры:
-
+```
 - *kernel /Image* — путь к ядру на разделе BOOT
 - *fdt /sun20i-d1-lichee-rv-dock.dtb* — путь к .dtb на разделе BOOT
 - *root=/dev/mmcblk0p2* — указывает, где искать корневую файловую систему
